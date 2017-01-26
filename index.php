@@ -11,7 +11,7 @@ $courses = $json_data['courses']['completed'];
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
   <link rel="stylesheet" href="/css/grid.css" media="screen" title="no title" charset="utf-8">
-  <title>Criviere's Badges</title>
+  <title>Camilo's Course Badges</title>
 </head>
 <body>
   <header>
