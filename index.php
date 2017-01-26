@@ -1,5 +1,8 @@
 <?php
-require("/Users/Crivi002/Desktop/php_badges/vendor/autoload.php");
+  require("/Users/Crivi002/Desktop/php_badges/vendor/autoload.php");
+ ?>
+
+<?php
 $data = file_get_contents('https://www.codeschool.com/users/Criviere.json');
 $json_data = json_decode($data, true);
 var_dump($json_data['courses']['completed']);
