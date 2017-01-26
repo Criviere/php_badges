@@ -6,7 +6,7 @@ $json_data = json_decode($data, true);
 <html>
 <head>
   <meta charset="utf-8">
-  <title><?php echo $json_data['user']['username']; ?></title>
+  <title><?php echo $json_data['user']['username']; ?>'s Badges</title>
 </head>
 <body>
 
