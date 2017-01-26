@@ -11,11 +11,11 @@ $courses = $json_data['courses']['completed'];
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
   <link rel="stylesheet" href="/css/grid.css" media="screen" title="no title" charset="utf-8">
-  <title>Camilo's Course Badges</title>
+  <title>Camilo's Badges</title>
 </head>
 <body>
   <header>
-    <h1>Badges</h1>
+    <h1>Camilo's Course Badges</h1>
   </header>
   <div class="container">
     <div class="grid">
