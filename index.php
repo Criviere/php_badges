@@ -9,16 +9,25 @@ $courses = $json_data['courses']['completed'];
 <html>
 <head>
   <meta charset="utf-8">
-  <title><?php echo $json_data['user']['username']; ?>'s Badges</title>
+  <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
+  <link rel="stylesheet" href="/css/grid.css" media="screen" title="no title" charset="utf-8">
+  <title>Criviere's Badges</title>
 </head>
 <body>
-  <?php
-  foreach ($courses as $course) {
-    echo '<div>';
-    echo '<img src="'. $course["badge"] . '">';
-    echo '<a href="' . $course["url"] . '">'. $course["title"] . '</a>';
-    echo '</div>';
-  }
-   ?>
+  <header>
+    <h1>Badges</h1>
+  </header>
+  <div class="container">
+    <div class="grid">
+      <?php
+      foreach ($courses as $course) {
+        echo '<div class = "grid-cell">';
+        echo '<img height="200px" src="'. $course["badge"] . '">';
+        echo '<a href="' . $course["url"] . '">'. $course["title"] . '</a>';
+        echo '</div>';
+      }
+     ?>
+    </div>
+ </div>
 </body>
 </html>
