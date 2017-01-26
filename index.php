@@ -1,6 +1,3 @@
-<?php
-  require("/Users/Crivi002/Desktop/php_badges/vendor/autoload.php");
- ?>
 
 <?php
 $data = file_get_contents('https://www.codeschool.com/users/Criviere.json');
