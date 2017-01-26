@@ -7,7 +7,7 @@ var_dump($json_data);
 <html>
 <head>
   <meta charset="utf-8">
-  <title><?php echo $json_data['user']['username']; ?>'s Bxadges</title>
+  <title><?php echo $json_data['user']['username']; ?>'s Badges</title>
 </head>
 <body>
 
